@@ -6,7 +6,7 @@
 /* header section style start */
 .header_section{
     height: 600px;
-    background-color: rgb(5, 19, 19);
+    background-color:white;
     padding: 80px 120px;
     background-image: url(images/Image_1.png);
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@
     height: 600px;
     width: 100%;
     padding: 80px 120px;
-    background-color: black;
+    background-color: rgb(94, 94, 94);
     display: flex;
 }
 .about_section{
@@ -102,7 +102,7 @@
 .third_div{
     height: 600px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(199, 178, 178);
     display: flex;
     padding: 80px 120px;
 }
@@ -140,3 +140,49 @@
     background-size: cover;
 }
 /* third div style end */
+/* fourth div style start */
+.fourth_div{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(34, 32, 32, 0.5);
+    display: flex;
+}
+.fourth_div .picture_part{
+    width: 60%;
+    height: 100%;
+    background-image: url(images/Image_3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fourth_div .text_part{
+    width: 40%;
+    height: 100%;
+}
+.text_part h1{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.text_part  p{
+    margin-top: 50px;
+    padding: 50px;
+    line-height: 25px;
+    font-size: 20px;
+    text-align: justify;
+}
+.member_btn{
+    height: 60px;
+    width: 180px;
+    margin-left: 50%;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+
+/* fourth div style end */
