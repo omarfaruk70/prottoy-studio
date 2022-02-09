@@ -50,8 +50,6 @@
     width: 50%;
     height: 100%;
     background-color: gray;
-  
-
 }
 .about_section h1{
     margin-top: 10%;
@@ -100,3 +98,45 @@
     border-radius: 10px;
 }
 /* second_div style end  */
+/* third div style start */
+.third_div{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    padding: 80px 120px;
+}
+.wordshop_part{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+}
+.wordshop_part h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin-top: 50px;
+
+}
+.wordshop_part p{
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 20px;
+}
+.workshop_btn{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    margin-left: 30%;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    color: white;
+}
+.image_part{
+    width: 70%;
+    height: 100%;
+    background-image: url(images/Image_2.png);
+    background-size: cover;
+}
+/* third div style end */
